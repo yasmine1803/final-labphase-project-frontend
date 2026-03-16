@@ -2,7 +2,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-04t0.onrender.com/api';  //'http://localhost:5000/api';
 const MOCK_MODE = false; // Toggle for backend integration
 
 // Mock user database for testing
